@@ -1,0 +1,184 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255 255 255);
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2575e8;
+    color: white;
+
+}
+
+header .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header .contact div {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #258ee8;
+    border-radius: 10px;
+
+}
+
+header .contact div:hover {
+    background-color: black;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.message h1,
+h3 {
+    margin: 0;
+}
+
+.message h1 {
+    color: #2575e8;
+}
+
+
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.plans .p1,
+.p2,
+.p3 {
+    display: block;
+    background-color: #2575e8;
+    color: white;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    border-radius: 10px;
+}
+
+.plans div p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.plans div h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.plans div h4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.plans div input {
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(26, 105, 11);
+    color: white;
+    cursor: pointer;
+}
+
+
+.plans div img {
+    width: 120px;
+    height: 120px;
+}
+
+.plans div .info {  
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.plans div .info p {
+    width: 100%;
+    font-size: 20px;
+}
+
+.plans div select {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 15px;
+    height: 30px;
+    border: none;
+}
+
+.info_1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 10px;
+    justify-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 50px;
+
+
+}
+
+.info_1 .i img {
+    width: 300px;
+    height: 160px;
+
+}
+
+.info_1 .i1 {
+    width: 50%;
+    padding-top: 20%;
+    background-color: #2575e8;
+}
+
+.info_1 .i {
+    display: flex;
+    flex-direction: row;
+    border: #2575e8 solid 1px;
+    color: white;
+    margin-top: 10px;
+}
+
+.info_1 .i .title {
+    font-size: 30px;
+}
+
+
+footer {
+    background-color: #2575e8;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
