@@ -1,0 +1,24 @@
+.come {
+    height: 130vh;
+    background-color: #00a1e7;
+    color: white;
+}
+
+.come > .come__title > h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.come > .come__msg {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10vh;
+}
+
+.come > .come__msg > div {
+    background-color: white;
+    padding: 120px;
+    color: black;
+}

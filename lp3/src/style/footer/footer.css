@@ -1,0 +1,9 @@
+.footer {
+    padding: 20px;
+    background-color: #764b24;;
+    color: white;
+}
+
+.footer > .footer__title > h2{
+    text-align: center;
+}

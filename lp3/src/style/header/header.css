@@ -1,0 +1,24 @@
+.header {
+    background-color: #764b24;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header>div {
+    display: flex;
+}
+
+.header>div>.header__link {
+    display: inline-block;
+    cursor: pointer;
+    padding:10px;
+    color: white;
+}
+
+.header>div>.header__link:hover {
+    background-color: white;
+    color:black;
+}

@@ -1,0 +1,23 @@
+.marketing {
+    height: 120vh;
+    background-color: #00a24a;
+    color: white;
+}
+
+.marketing > .marketing__title > h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.marketing > .marketing__title > p {
+    text-align: center;
+    padding: 120px;
+    padding-top: 50px;
+}
+
+.marketing > .marketing__title > img {
+    width: 500px;
+    display: flex;
+    margin: auto;
+    padding-top: 70px;
+}

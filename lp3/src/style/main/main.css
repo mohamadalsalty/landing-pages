@@ -1,0 +1,36 @@
+.main {
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    background-color: #764b24;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main > .main__title > h1,p {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.main > .main__image > img {
+    width: 80vh;
+}
+
+.main__title > img {
+    width: 30vh;
+    padding-top: 10vh;
+}
+
+.main > .main__title > button {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.main > .main__title > button:hover {
+    background-color:black;
+    color:  white;
+}
